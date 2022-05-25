@@ -13,7 +13,7 @@ Enable 11k items open proxies blacklist on Linux hosts:
 
 ```
 git clone https://github.com/fabriziosalmi/blacklist-scripts.git
-cd blacklists
+cd blacklist-scripts
 chmod +x block_proxies.sh
 ./block_proxies.sh
 ```
@@ -31,7 +31,7 @@ Enable PiHole primary malware blacklist on Linux hosts:
 
 ```
 git clone https://github.com/fabriziosalmi/blacklist-scripts.git
-cd blacklists
+cd blacklist-scripts
 chmod +x block_malware.sh
 wget -O malware.list https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.ip
 ./block_malware.sh
@@ -50,7 +50,7 @@ Enable PiHole primary phishing blacklist on Linux hosts:
 
 ```
 git clone https://github.com/fabriziosalmi/blacklist-scripts.git
-cd blacklists
+cd blacklist-scripts
 chmod +x block_phishing.sh
 wget -O phishing.list https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt
 ./block_phishing.sh
