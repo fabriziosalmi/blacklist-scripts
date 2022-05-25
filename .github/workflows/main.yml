@@ -24,14 +24,22 @@ jobs:
       - uses: actions/checkout@v3
 
        # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: Install git
         run: sudo apt install git -y
 
        # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: Clone the repo
         run: git clone https://github.com/fabriziosalmi/blacklist-scripts.git      
         
         # Runs a single command using the runners shell
-      - name: Run a one-line script
+      - name: cd to the repo folder
         run: cd blacklist-scripts
+
+        # Runs a single command using the runners shell
+      - name: change script mermissions
+        run: sudo chmod +x block_proxies.sh
+
+        # Runs a single command using the runners shell
+      - name: Execute script
+        run: ./block_proxies.sh
 
