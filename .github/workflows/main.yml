@@ -41,5 +41,5 @@ jobs:
 
         # Runs a single command using the runners shell
       - name: Execute script
-        run: ./block_proxies.sh
+        run: sudo ./block_proxies.sh
 
