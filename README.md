@@ -12,7 +12,7 @@ Requirements:
 Enable 11k items open proxies blacklist on Linux hosts:
 
 ```
-git clone [https://git-cws.lseg.com/tools/blacklists.git](https://github.com/fabriziosalmi/blacklist-scripts.git)
+git clone https://github.com/fabriziosalmi/blacklist-scripts.git
 cd blacklists
 chmod +x block_proxies.sh
 ./block_proxies.sh
@@ -30,7 +30,7 @@ Requirements:
 Enable PiHole primary malware blacklist on Linux hosts:
 
 ```
-git clone [https://git-cws.lseg.com/tools/blacklists.git](https://github.com/fabriziosalmi/blacklist-scripts.git)
+git clone https://github.com/fabriziosalmi/blacklist-scripts.git
 cd blacklists
 chmod +x block_malware.sh
 wget -O malware.list https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.ip
@@ -49,7 +49,7 @@ Requirements:
 Enable PiHole primary phishing blacklist on Linux hosts:
 
 ```
-git clone [https://git-cws.lseg.com/tools/blacklists.git](https://github.com/fabriziosalmi/blacklist-scripts.git)
+git clone https://github.com/fabriziosalmi/blacklist-scripts.git
 cd blacklists
 chmod +x block_phishing.sh
 wget -O phishing.list https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt
