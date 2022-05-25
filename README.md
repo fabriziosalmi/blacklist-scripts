@@ -1,7 +1,6 @@
-# linux-open-proxy-blackhole
-Block thousands of known open proxies, malware and phishing hosts on Linux hosts
-
 # blacklists
+
+Block open proxies, malware and phishing sites on Linux hosts. Please check script files for any modification. All reporters are welcome, MR too :)
 
 ## open proxies
 
